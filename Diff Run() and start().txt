@@ -1,0 +1,10 @@
+run():                                           |   Start():
+1. run() is present in runnable interface.           1. start() is  present in Thread class.                                   
+2. when we call run() then no thread will be         2. when we call start() then new thread will
+    created.                                     |      be created.      |
+3. we can call run() several times.                  3. but we can call start() only once  .                           
+4. when we call run() of runnable interface          4. when we call thread class start()then                       |                                                       internally thread class run() will be called.
+
+
+
+Thread : It is a light weight sub-process, which is present in Thread class
